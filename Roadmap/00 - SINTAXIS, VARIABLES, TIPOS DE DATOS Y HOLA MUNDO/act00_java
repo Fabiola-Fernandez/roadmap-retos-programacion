@@ -1,0 +1,72 @@
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+//Esto es un paquete donde vive la clase escaner
+//java es la raiz que es que viene de java
+//util es que viene de las clases útiles
+//en pocas palabras le estas diciendo a java que quieres usar esta clase
+// dentro de ese paquete
+import java.util.Scanner;
+class act01_ejercicio {
+    public static void main(String[] args) {
+        // https://dev.java/
+        // Escribí un comentario
+        /* bastante texto
+           mas comentarios
+        */
+
+        // VARIABLES:
+        // Una variable puede cambiar su valor o contenido
+        // Por eso cuando sabemos cual sera el valor
+        // declaramos una constante mejor
+
+        System.out.println("Hola java");
+
+        // Tipos de variables:
+
+        // Tipos de datos enteros
+        byte Cumpleaños;
+        short Dinero;
+        int edad;
+        long PrecioInfinitoL;
+
+        // Tipos de datos decimales
+        float Decimales;
+        double DecimalesLargos;
+
+        // Tipo de variables extras
+
+        //Para declar un variable string se puede hacer de dos formas
+        // un forma es declarar la variable con datos o
+
+
+
+        // sola que esta se declaran de la siguiente forma:
+
+        //Scanner es el nombre de la clase
+        //sc es el objeto que creas de la clase puedo poner lo que quiera
+        //new scanner(System.in); es la instrucción o sea que lea desde el teclado
+        Scanner sc = new Scanner(System.in);
+        String nombre;
+
+        System.out.print("ingresa tu nombre");
+        nombre = sc.nextLine();
+
+        System.out.print("Hola" + nombre + ", bienvenido a java " );
+        // Hasta aquí para mostrar resultados también se tiene que poner una clase
+        // esta: import java.util.Scanner; al principio de todo para que lea
+
+        boolean MayorDeEdad = true;
+        boolean TienePermiso = false;
+
+        char letra = 'J';
+        char letraUno;
+
+        // CONSTANTES:
+        // Se utiliza 'final' para declarar una constante
+        final int EdadJuan = 30;
+
+        System.out.println("La edad de Juan es: " );
+    }
+
+}
